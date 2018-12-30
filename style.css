@@ -1,0 +1,46 @@
+body,html{
+  margin: 0px;
+  height: 100%;
+  font-family: sans-serif , arial;
+}
+.bgbox{
+  height: 100%;
+  width: 100%;
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    color: white;
+    margin: 0px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.logo h1{
+  margin-left: 72px;
+  letter-spacing: 2px;
+  font-size: 26px;
+}
+.timebox{
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  padding: 60px 80px;
+  font-size: 24px;
+  color: black;
+}
+.timebox h1{
+  letter-spacing: 8px;
+  line-height: 10%;
+}
+#time {
+  font-size: 42px;
+}
